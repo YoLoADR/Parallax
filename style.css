@@ -1,0 +1,35 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*Pour l'exemple on a besoin de définir une taille pour que l'écran scroll*/
+body{
+	height: 2400px;
+}
+
+.objet1{
+	height: 100px;
+	width: 300px;
+	background-color: red;
+	position: absolute;
+	top: 200px;
+	left: 100px;
+}
+.objet2{
+	height: 300px;
+	width: 100px;
+	background-color: green;
+	position: absolute;
+	top: 100px;
+	left: 430px;
+}
+
+.objet3{
+	height: 200px;
+	width: 200px;
+	background-color: blue;
+	border-radius: 50%;
+	position: absolute;
+	top: 300px;
+	left: 30px;
+}
